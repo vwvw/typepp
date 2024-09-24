@@ -1,10 +1,28 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://github.com/llvm/llvm-project/blob/release/19.x/LICENSE.TXT)
-# type++ artifact for NDSS 2025
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13687049.svg)](https://doi.org/10.5281/zenodo.13687049)
 
-This document will walk you trough replicating our results for our [paper](https://www.ndss-symposium.org/wp-content/uploads/2025-53-paper.pdf):
-`type++: Prohibiting Type Confusion with Inline Type
-Information` (DOI:[10.14722/ndss.2025.23053](https://dx.doi.org/10.14722/ndss.2025.23053)).
+
+# type++: Prohibiting Type Confusion with Inline Type Information
+
+The rest of this document will walk you trough replicating the results from our [paper](https://www.ndss-symposium.org/wp-content/uploads/2025-53-paper.pdf):
+[`type++: Prohibiting Type Confusion with Inline Type
+Information`](https://hexhive.epfl.ch/publications/files/22NDSS.pdf) (DOI:[10.14722/ndss.2025.23053](https://dx.doi.org/10.14722/ndss.2025.23053)) published in NDSS'25.
 Additonally, the complete artifact can be found on [Zenodo](https://zenodo.org/records/13687049), [DOI:10.5281/zenodo.13687049](https://doi.org/10.5281/zenodo.13687049).
+
+### Citation
+```
+
+@inproceedings{Badoux_type_Prohibiting_Type_2025,
+  author = {Badoux, Nicolas and Toffalini, Flavio and Yuseok, Jeon and Payer, Mathias},
+  booktitle = {32th Annual Network and Distributed System Security Symposium, \{NDSS\} 2025, San Diego, California, USA, February 23 - 28, 2025,},
+  doi = {10.14722/ndss.2025.23053},
+  month = feb,
+  publisher = {The Internet Society,},
+  title = {{type++: Prohibiting Type Confusion with Inline Type Information}},
+  url = {https://dx.doi.org/10.14722/ndss.2025.23053},
+  year = {2025}
+}
+```
 
 ### Repository layout
 The repository is originally a fork of LLVM 13.0.0. The type++ code is commited
@@ -26,6 +44,7 @@ the [Type++/metadata-eval](./Type++/metadata-eval) folder.
 
 The LLVM code is released under the Apache License v2.0 with LLVM Exceptions. The type++ code follows the same license. 
 
+<img src="./badge-AFR.png" alt="drawing" width="100"/>
 
 ## Artifact Evaluation
 
