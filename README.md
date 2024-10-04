@@ -77,7 +77,7 @@ We require at least 16GB of RAM for SPEC CPU benchmarks and 128GB of RAM if you
 want to build and run Chromium. 
 A folder, `typepp` will be created in your `$HOME` folder. 
 
-### Getting type++ code and inital requirements
+### Getting type++ code and initial requirements
 ```bash
 sudo apt install -qq -y python3-pip git curl tmux
 cd ${HOME}
