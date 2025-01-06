@@ -80,18 +80,16 @@ A folder, `typepp` will be created in your `$HOME` folder.
 ### Getting type++ code and initial requirements
 ```bash
 sudo apt install -qq -y python3-pip git curl tmux
-cd ${HOME}
 export REPO=https://github.com/HexHive/typepp.git
-export BRANCH=typepp
+export BRANCH=main
 export DEPTH=100
 git clone $REPO --single-branch --branch $BRANCH --depth $DEPTH typepp
-cd ${HOME}/typepp
+cd typepp
 ```
 
 ### Requirements
 Install dependencies (Docker and a VNC server to run Chromium not in headless mode).
 ```bash
-cd ${HOME}/typepp
 pip install -r requirements.txt
 
 # Chromium specific prerequisites: Install a vnc server
